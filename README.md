@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Sensor Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Sensor Management App was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* It uses React and React Material as a UI Component library
+* It connects with the Websocket endpoint to obtain IoT data
+* Initially the sensors are in disconnected state. When the "Connect" button is clicked then the sensor is connected and it receives a steady stream of data.
+* There is a switch at the header section of the app to either show all sensors or only show connected sensors
+
+## Project Setup
+
+* Run cmd `npm install` or `yarn install` to install the required packages
+* Run cmd `npm start` or `yarn start` to run the app
+* Ensure that the back-end websocket service is running at port 5000
+* Open [http://localhost:3000](http://localhost:3000) to view it in the browser
 
 ## Available Scripts
 
