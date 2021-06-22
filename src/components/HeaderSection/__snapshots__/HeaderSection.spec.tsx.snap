@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderSection tests snapshot test 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <header
+    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary makeStyles-appBar-2 MuiPaper-elevation4"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center MuiGrid-justify-xs-space-between"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item"
+      >
+        <h6
+          className="MuiTypography-root MuiTypography-h6 MuiTypography-colorInherit"
+        >
+          Sensor Management
+        </h6>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item"
+      >
+        <label
+          className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-align-items-xs-center"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item"
+          >
+            Show Connected
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item"
+          >
+            <span
+              className="MuiSwitch-root"
+            >
+              <span
+                aria-disabled={false}
+                className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-3 MuiSwitch-switchBase MuiSwitch-colorSecondary PrivateSwitchBase-checked-4 Mui-checked"
+                onBlur={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex={null}
+              >
+                <span
+                  className="MuiIconButton-label"
+                >
+                  <input
+                    checked={true}
+                    className="PrivateSwitchBase-input-6 MuiSwitch-input"
+                    onChange={[Function]}
+                    type="checkbox"
+                    value="checked"
+                  />
+                  <span
+                    className="MuiSwitch-thumb"
+                  />
+                </span>
+              </span>
+              <span
+                className="MuiSwitch-track"
+              />
+            </span>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item"
+          >
+            Show All
+          </div>
+        </label>
+      </div>
+    </div>
+  </header>
+</div>
+`;
